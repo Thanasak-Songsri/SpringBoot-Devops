@@ -1,13 +1,13 @@
-package com.example.springboot.springboot;
+package com.example.springboot_devops;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootApplication {
+public class SpringbootDevopsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootApplication.class, args);
+		SpringApplication.run(SpringbootDevopsApplication.class, args);
 	}
 
 }

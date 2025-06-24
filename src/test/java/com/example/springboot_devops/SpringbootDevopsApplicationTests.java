@@ -19,7 +19,6 @@ class SpringbootDevopsApplicationTests {
 
 	@Test
 	void helloEndpointShouldReturnHelloWorld() {
-		// เรียก endpoint "/"
 		ResponseEntity<String> response = restTemplate.getForEntity("/", String.class);
 		assertThat(response.getStatusCodeValue()).isEqualTo(200);
 		assertThat(response.getBody()).isEqualTo("Hello, World!");

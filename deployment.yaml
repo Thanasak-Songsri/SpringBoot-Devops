@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: springboot-app
-        image: docker.io/thanasak2003/springbootdemo:latest
+        image: docker.io/thanasak2003/springboot-k8s-demo:latest
         ports:
         - containerPort: 9090
 ---
